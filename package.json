@@ -1,0 +1,25 @@
+{
+  "name": "nodetesting",
+  "version": "1.0.0",
+  "description": "",
+  "main": "boot.js",
+  "dependencies": {
+    "consolidate": "^0.14.1",
+    "promise": "^7.1.1",
+    "tedious": "^1.14.0",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "jasmine": "^2.5.1",
+    "jasmine-node": "^1.14.5",
+    "mocha": "^3.0.2",
+    "sinon": "^1.17.5",
+    "webpack": "^1.13.2"
+  },
+  "scripts": {    
+    "test": "jasmine-node test\\injector.spec.js",
+    "example" : "node example.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
